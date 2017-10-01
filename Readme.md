@@ -5,3 +5,7 @@ https://github.com/mindaslab/ilrx/blob/master/x/tictac.rb
 
 * Programatically defined a winning condition.
 * Developed an simple A.I agent that knows to win and blocks opponents victory.
+
+### Running the game.
+
+Clone it and `python game.py`
