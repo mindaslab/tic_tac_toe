@@ -5,9 +5,9 @@ from models.winner import Winner
 class Agent:
     WEIGHTS = [5, 1, 7, 9, 3, 2, 4, 6, 8 ]
 
-    def __init__(self):
-        self.my_symbol = 'X'
-        self.opponent_symbol = 'O'
+    def __init__(self, agent_symbol='X', opponent_symbol='O'):
+        self.my_symbol = agent_symbol
+        self.opponent_symbol = opponent_symbol
         self.board = None
 
     def move(self, board):
